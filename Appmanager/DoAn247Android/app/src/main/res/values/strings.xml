@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DoAn247AndroidQuanLi</string>
+    <string name="t_n_s_n_ph_m">Tên Sản Phẩm</string>
+    <string name="gi_1500000_vn">Giá: 1500000 vnđ</string>
+    <string name="th_m_v_o_gi_h_ng">Thêm vào giỏ hàng</string>
+    <string name="ng_nh_p">Đăng Nhập</string>
+    <string name="ng_k">Đăng Kí</string>
+</resources>

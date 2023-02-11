@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundshose3"
+    tools:context="com.user.doan247android.activity.QuanLiActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toobar"
+        app:titleTextColor="@color/white"
+        app:title="Quản Lí"
+        android:background="@color/darkcyan"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:id="@+id/img_them"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_add_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview_ql"
+        android:layout_margin="5dp"
+        app:layout_constraintTop_toBottomOf="@id/toobar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
